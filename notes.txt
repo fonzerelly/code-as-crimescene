@@ -1,0 +1,109 @@
+Book: Your Code as a Crime Scene
+
+from Pragmatic Book Shelf
+Author: Adam Tornhill
+
+iCrimes have offenders
+to find offenders forensic psyc could be used
+code can be an offender to a system
+to find offenders wer minin g commit data and anlyse version history
+crimes
+
+
+overivew
+find hotspots next crime will prob happen
+detect architectual decay
+code churn(rate at wich code evolves)
+
+Crimes in term of code
+changing code takes to long
+changing code introduces bugs
+
+prdedict new crimes
+find hotsposts
+
+Static code analysis
+snoarQube
+structure 101 /defines architecture
+codecity //
+
+iwhats hot?
+
+
+use data from vcs
+who changed wich file when
+how often
+focusing on acertain perioad
+use color to highlicht frequency
+
+creating an offender profile
+code Maat free
+collect data from vcs and inspect it with codemaat
+
+resulting logfile
+who what when
+
+Measurement: Change frequency
+Analyze Change frequency
+
+entity nubmer of revidison
+
+
+cloc lines of code
+
+
+merg comp py
+
+
+research has shown: frequent changes to complex code indicats declining
+quality
+prioritize design issues
+iden
+
+limitations
+data is not normalized
+depends on analysis perios
+depends on comit styles
+
+Uncover hidden dependencies
+
+analysze coupliibng
+no explicit cupling
+
+Cupling - is there a design problem
+
+look into source code to infestigate
+git log
+
+sum of cupbling
+the metric gives number of shared transactions for a module
+gives a priority
+
+
+code churn
+perdict unstable feature areas
+d
+
+
+commit messages
+features
+where to spend time
+process information
+
+Wordls out of commit mesages
+good basis for discueesion
+see domain commit clouds
+
+Knowledge Map
+large codebase :
+several teams
+to whom should you talk
+
+Alame/Annotation
+
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+
+Knowledge loss
+cod eMaat analyses
+
+l
