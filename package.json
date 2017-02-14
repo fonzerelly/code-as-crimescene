@@ -8,7 +8,9 @@
   },
   "bin": {
     "maat": "lib/maat.js",
-    "maatlog": "lib/maatlog.js"
+    "maatlog": "lib/maatlog.js",
+    "cloc": "node_modules/cloc/lib/cloc",
+    "maatclosure": "lib/maatclosure.js"
   },
   "author": "",
   "license": "ISC",
