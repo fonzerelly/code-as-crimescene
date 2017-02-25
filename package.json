@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "elm-test",
+    "start": "elm-make src/Main.elm --output app/elm.js && electron app/main.js",
+    "elm-package": "elm-package",
+    "elm-make": "elm-make",
+    "elm-test": "elm-test"
   },
   "bin": {
     "maat": "lib/maat.js",
@@ -15,7 +19,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "cloc": "^2.2.0",
+    "electron-prebuilt": "^1.4.13",
+    "elm": "^0.18.0",
+    "glob": "^7.1.1",
     "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "elm-test": "^0.18.2"
   }
 }
