@@ -7,7 +7,7 @@ let container = document.getElementById('container')
 console.log(container)
 
 // let code_as_crimescene = Elm.Main.embed(container)
-let code_as_crimescene = Elm.Spelling.embed(container)
+let code_as_crimescene = Elm.CodeAsCrimescene.embed(container)
 
 const ports = require('../lib/ports');
 
